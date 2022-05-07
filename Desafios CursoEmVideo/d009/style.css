@@ -1,0 +1,14 @@
+@charset "UTF-8";
+h1{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align: center;
+}
+iframe{
+    text-align: center;
+}
+body{
+    background-color: rgb(32, 32, 32);
+}
