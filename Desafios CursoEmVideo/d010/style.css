@@ -6,14 +6,16 @@
     font-family: 'bebas_neue';
     src: url('pacote-projeto-d010/fontes/BebasNeue-Regular.otf') format('opentype'); 
 }
-
+*{
+    margin: 0px;
+}
 header{
     padding: 20px;
     background-image: linear-gradient(0deg, #063d1e, #2fa866 );
     
 }
 article{
-    margin: 0px;
+
     padding: 0px;
 }
 h1#cabt{
@@ -35,7 +37,7 @@ p.cabp{
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.479);
 }
 nav{
-    margin: 0px;
+
     padding: 2px;
     
 }
@@ -54,7 +56,6 @@ nav > a:hover{
 
 body{
     background-color: #83e1ad;
-    margin: 0px;
 }
 main{
     background-color: white;
@@ -62,7 +63,7 @@ main{
     height: auto;
     box-shadow: 0px 0px 4px 2px #00000085;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     border-radius: 10px;
     padding: 20px;
@@ -81,7 +82,6 @@ p > a:hover{
 h1.corpoh1{
     font-size: 2em;
     font-family: 'idroid', cursive ;
-    margin: 0px;
     color: #1D613A;
     text-indent: 10px;
     padding-top: 15px;
@@ -132,7 +132,6 @@ aside{
 }
 aside > h3{
     background-color: #1D613A;
-    margin: 0px;
     color: white;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
@@ -154,7 +153,7 @@ footer{
     color: white;
     text-align:center;
     font-size: 0.9em;
-    padding: 2px;
+    padding: 5px;
     ;
 }
 p#final > a{
@@ -164,4 +163,7 @@ background-color: #063d1e;
 }
 p#final > a:hover{
     text-decoration: underline;
+}
+strong{
+    color: #063d1e;
 }
