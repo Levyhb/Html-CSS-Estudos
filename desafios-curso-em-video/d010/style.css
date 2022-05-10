@@ -106,7 +106,7 @@ p.corpoP{
 .imagens{
     display: block;
     margin: auto;
-    
+    width: 90%;
 }
 div{
     background-color: #063d1e;
